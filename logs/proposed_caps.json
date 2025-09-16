@@ -1,0 +1,38 @@
+{
+  "mat": {
+    "age": {
+      "low_cap": 13.0,
+      "high_cap": 21.0
+    },
+    "absences": {
+      "low_cap": -12.0,
+      "high_cap": 20.0
+    },
+    "G2": {
+      "low_cap": 3.0,
+      "high_cap": 19.0
+    }
+  },
+  "por": {
+    "age": {
+      "low_cap": 13.0,
+      "high_cap": 21.0
+    },
+    "absences": {
+      "low_cap": -9.0,
+      "high_cap": 15.0
+    },
+    "G1": {
+      "low_cap": 5.5,
+      "high_cap": 17.5
+    },
+    "G2": {
+      "low_cap": 5.5,
+      "high_cap": 17.5
+    },
+    "G3": {
+      "low_cap": 4.0,
+      "high_cap": 20.0
+    }
+  }
+}

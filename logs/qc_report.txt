@@ -1,0 +1,289 @@
+# QC Report — Student Dataset
+
+## student-mat.csv — Schema
+Rows x Cols: 395 x 33
+Dtypes:
+  - school: object
+  - sex: object
+  - age: int64
+  - address: object
+  - famsize: object
+  - Pstatus: object
+  - Medu: int64
+  - Fedu: int64
+  - Mjob: object
+  - Fjob: object
+  - reason: object
+  - guardian: object
+  - traveltime: int64
+  - studytime: int64
+  - failures: int64
+  - schoolsup: object
+  - famsup: object
+  - paid: object
+  - activities: object
+  - nursery: object
+  - higher: object
+  - internet: object
+  - romantic: object
+  - famrel: int64
+  - freetime: int64
+  - goout: int64
+  - Dalc: int64
+  - Walc: int64
+  - health: int64
+  - absences: int64
+  - G1: int64
+  - G2: int64
+  - G3: int64
+
+## student-mat.csv — Missing values
+school        0
+sex           0
+age           0
+address       0
+famsize       0
+Pstatus       0
+Medu          0
+Fedu          0
+Mjob          0
+Fjob          0
+reason        0
+guardian      0
+traveltime    0
+studytime     0
+failures      0
+schoolsup     0
+famsup        0
+paid          0
+activities    0
+nursery       0
+higher        0
+internet      0
+romantic      0
+famrel        0
+freetime      0
+goout         0
+Dalc          0
+Walc          0
+health        0
+absences      0
+G1            0
+G2            0
+G3            0
+
+## student-mat.csv — Placeholder tokens
+None detected
+
+## student-mat.csv — Duplicate rows
+0
+
+## student-mat.csv — Value ranges
+G1: min=3, max=19, out_of_range=0
+G2: min=0, max=19, out_of_range=0
+G3: min=0, max=20, out_of_range=0
+absences: min=0, max=75, out_of_range=0
+age: min=15, max=22, out_of_range=0
+
+## student-mat.csv — Categorical uniques (sample)
+school: 2 unique (showing up to 15) -> ['GP', 'MS']
+sex: 2 unique (showing up to 15) -> ['F', 'M']
+address: 2 unique (showing up to 15) -> ['R', 'U']
+famsize: 2 unique (showing up to 15) -> ['GT3', 'LE3']
+Pstatus: 2 unique (showing up to 15) -> ['A', 'T']
+Mjob: 5 unique (showing up to 15) -> ['at_home', 'health', 'other', 'services', 'teacher']
+Fjob: 5 unique (showing up to 15) -> ['at_home', 'health', 'other', 'services', 'teacher']
+reason: 4 unique (showing up to 15) -> ['course', 'home', 'other', 'reputation']
+guardian: 3 unique (showing up to 15) -> ['father', 'mother', 'other']
+schoolsup: 2 unique (showing up to 15) -> ['no', 'yes']
+famsup: 2 unique (showing up to 15) -> ['no', 'yes']
+paid: 2 unique (showing up to 15) -> ['no', 'yes']
+activities: 2 unique (showing up to 15) -> ['no', 'yes']
+nursery: 2 unique (showing up to 15) -> ['no', 'yes']
+higher: 2 unique (showing up to 15) -> ['no', 'yes']
+internet: 2 unique (showing up to 15) -> ['no', 'yes']
+romantic: 2 unique (showing up to 15) -> ['no', 'yes']
+
+## student-mat.csv — Describe(G1)
+count    395.000000
+mean      10.908861
+std        3.319195
+min        3.000000
+25%        8.000000
+50%       11.000000
+75%       13.000000
+max       19.000000
+
+## student-mat.csv — Describe(G2)
+count    395.000000
+mean      10.713924
+std        3.761505
+min        0.000000
+25%        9.000000
+50%       11.000000
+75%       13.000000
+max       19.000000
+
+## student-mat.csv — Describe(G3)
+count    395.000000
+mean      10.415190
+std        4.581443
+min        0.000000
+25%        8.000000
+50%       11.000000
+75%       14.000000
+max       20.000000
+
+## student-mat.csv — Describe(absences)
+count    395.000000
+mean       5.708861
+std        8.003096
+min        0.000000
+25%        0.000000
+50%        4.000000
+75%        8.000000
+max       75.000000
+
+## student-por.csv — Schema
+Rows x Cols: 649 x 33
+Dtypes:
+  - school: object
+  - sex: object
+  - age: int64
+  - address: object
+  - famsize: object
+  - Pstatus: object
+  - Medu: int64
+  - Fedu: int64
+  - Mjob: object
+  - Fjob: object
+  - reason: object
+  - guardian: object
+  - traveltime: int64
+  - studytime: int64
+  - failures: int64
+  - schoolsup: object
+  - famsup: object
+  - paid: object
+  - activities: object
+  - nursery: object
+  - higher: object
+  - internet: object
+  - romantic: object
+  - famrel: int64
+  - freetime: int64
+  - goout: int64
+  - Dalc: int64
+  - Walc: int64
+  - health: int64
+  - absences: int64
+  - G1: int64
+  - G2: int64
+  - G3: int64
+
+## student-por.csv — Missing values
+school        0
+sex           0
+age           0
+address       0
+famsize       0
+Pstatus       0
+Medu          0
+Fedu          0
+Mjob          0
+Fjob          0
+reason        0
+guardian      0
+traveltime    0
+studytime     0
+failures      0
+schoolsup     0
+famsup        0
+paid          0
+activities    0
+nursery       0
+higher        0
+internet      0
+romantic      0
+famrel        0
+freetime      0
+goout         0
+Dalc          0
+Walc          0
+health        0
+absences      0
+G1            0
+G2            0
+G3            0
+
+## student-por.csv — Placeholder tokens
+None detected
+
+## student-por.csv — Duplicate rows
+0
+
+## student-por.csv — Value ranges
+G1: min=0, max=19, out_of_range=0
+G2: min=0, max=19, out_of_range=0
+G3: min=0, max=19, out_of_range=0
+absences: min=0, max=32, out_of_range=0
+age: min=15, max=22, out_of_range=0
+
+## student-por.csv — Categorical uniques (sample)
+school: 2 unique (showing up to 15) -> ['GP', 'MS']
+sex: 2 unique (showing up to 15) -> ['F', 'M']
+address: 2 unique (showing up to 15) -> ['R', 'U']
+famsize: 2 unique (showing up to 15) -> ['GT3', 'LE3']
+Pstatus: 2 unique (showing up to 15) -> ['A', 'T']
+Mjob: 5 unique (showing up to 15) -> ['at_home', 'health', 'other', 'services', 'teacher']
+Fjob: 5 unique (showing up to 15) -> ['at_home', 'health', 'other', 'services', 'teacher']
+reason: 4 unique (showing up to 15) -> ['course', 'home', 'other', 'reputation']
+guardian: 3 unique (showing up to 15) -> ['father', 'mother', 'other']
+schoolsup: 2 unique (showing up to 15) -> ['no', 'yes']
+famsup: 2 unique (showing up to 15) -> ['no', 'yes']
+paid: 2 unique (showing up to 15) -> ['no', 'yes']
+activities: 2 unique (showing up to 15) -> ['no', 'yes']
+nursery: 2 unique (showing up to 15) -> ['no', 'yes']
+higher: 2 unique (showing up to 15) -> ['no', 'yes']
+internet: 2 unique (showing up to 15) -> ['no', 'yes']
+romantic: 2 unique (showing up to 15) -> ['no', 'yes']
+
+## student-por.csv — Describe(G1)
+count    649.000000
+mean      11.399076
+std        2.745265
+min        0.000000
+25%       10.000000
+50%       11.000000
+75%       13.000000
+max       19.000000
+
+## student-por.csv — Describe(G2)
+count    649.000000
+mean      11.570108
+std        2.913639
+min        0.000000
+25%       10.000000
+50%       11.000000
+75%       13.000000
+max       19.000000
+
+## student-por.csv — Describe(G3)
+count    649.000000
+mean      11.906009
+std        3.230656
+min        0.000000
+25%       10.000000
+50%       12.000000
+75%       14.000000
+max       19.000000
+
+## student-por.csv — Describe(absences)
+count    649.000000
+mean       3.659476
+std        4.640759
+min        0.000000
+25%        0.000000
+50%        2.000000
+75%        6.000000
+max       32.000000

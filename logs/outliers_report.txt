@@ -1,0 +1,29 @@
+# Outlier Report (clean v1)
+
+== mat basic stats ==
+age: count=395, min=15.0, q1=16.0, median=17.0, q3=18.0, max=22.0, mean=16.696202531645568, std=1.2760427246056283
+absences: count=395, min=0.0, q1=0.0, median=4.0, q3=8.0, max=75.0, mean=5.708860759493671, std=8.00309568710818
+G1: count=395, min=3.0, q1=8.0, median=11.0, q3=13.0, max=19.0, mean=10.90886075949367, std=3.319194671507669
+G2: count=395, min=0.0, q1=9.0, median=11.0, q3=13.0, max=19.0, mean=10.713924050632912, std=3.7615046595560298
+G3: count=395, min=0.0, q1=8.0, median=11.0, q3=14.0, max=20.0, mean=10.415189873417722, std=4.5814426109978434
+
+== mat outlier checks (IQR + |z|>=3) ==
+age: min=15.0, max=22.0, IQR_low=13.0, IQR_high=21.0, n_IQR_outliers=1, n_|z|>=3=2
+absences: min=0.0, max=75.0, IQR_low=-12.0, IQR_high=20.0, n_IQR_outliers=15, n_|z|>=3=6
+G1: min=3.0, max=19.0, IQR_low=0.5, IQR_high=20.5, n_IQR_outliers=0, n_|z|>=3=0
+G2: min=0.0, max=19.0, IQR_low=3.0, IQR_high=19.0, n_IQR_outliers=13, n_|z|>=3=0
+G3: min=0.0, max=20.0, IQR_low=-1.0, IQR_high=23.0, n_IQR_outliers=0, n_|z|>=3=0
+
+== por basic stats ==
+age: count=649, min=15.0, q1=16.0, median=17.0, q3=18.0, max=22.0, mean=16.7442218798151, std=1.2181376394800656
+absences: count=649, min=0.0, q1=0.0, median=2.0, q3=6.0, max=32.0, mean=3.6594761171032357, std=4.640758808397153
+G1: count=649, min=0.0, q1=10.0, median=11.0, q3=13.0, max=19.0, mean=11.399075500770415, std=2.745265128446372
+G2: count=649, min=0.0, q1=10.0, median=11.0, q3=13.0, max=19.0, mean=11.570107858243452, std=2.913638664303867
+G3: count=649, min=0.0, q1=10.0, median=12.0, q3=14.0, max=19.0, mean=11.906009244992296, std=3.230656242804805
+
+== por outlier checks (IQR + |z|>=3) ==
+age: min=15.0, max=22.0, IQR_low=13.0, IQR_high=21.0, n_IQR_outliers=1, n_|z|>=3=3
+absences: min=0.0, max=32.0, IQR_low=-9.0, IQR_high=15.0, n_IQR_outliers=21, n_|z|>=3=11
+G1: min=0.0, max=19.0, IQR_low=5.5, IQR_high=17.5, n_IQR_outliers=16, n_|z|>=3=1
+G2: min=0.0, max=19.0, IQR_low=5.5, IQR_high=17.5, n_IQR_outliers=25, n_|z|>=3=7
+G3: min=0.0, max=19.0, IQR_low=4.0, IQR_high=20.0, n_IQR_outliers=16, n_|z|>=3=16

@@ -1,0 +1,5 @@
+# Caps summary (v2 export)
+mat: absences cap -> low=-12.0, high=20.0, changed=15 rows
+mat: wrote C:\Users\jared\OneDrive\Documents\edu_analysis_local\data_clean\student-mat_clean_v2.csv
+por: absences cap -> low=-9.0, high=15.0, changed=21 rows
+por: wrote C:\Users\jared\OneDrive\Documents\edu_analysis_local\data_clean\student-por_clean_v2.csv
